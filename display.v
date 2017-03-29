@@ -579,7 +579,7 @@ module display
 		else if(!KEY[2] || middleMove)begin
 			if(middleMove)begin
 				colour <= 3'b001;
-				x <= 8'd30;
+				x <= 8'd80;
 				middleMove <= 1'b0;
 				createCar <= 1'b1;
 				createCarCounter <=4'd0;
